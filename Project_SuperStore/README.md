@@ -1,7 +1,7 @@
 # 📈 Dự án: Phân tích Doanh số & Lợi nhuận Global Superstore
 Đây là một dự án phân tích dữ liệu trọn vẹn (end-to-end), thực hiện quy trình từ làm sạch dữ liệu thô, phân tích, và trực quan hóa để tìm ra các xu hướng kinh doanh quan trọng.
 
-1. Mục tiêu (Ask)
+## 1. Mục tiêu (Ask)
 Mục tiêu của dự án là trả lời các câu hỏi kinh doanh chính từ Ban Giám đốc:
 
 Tình hình tăng trưởng doanh thu và lợi nhuận theo thời gian?
@@ -10,7 +10,7 @@ Khu vực (Market) và Phân khúc khách hàng (Segment) nào đang hoạt đ�
 
 Những danh mục sản phẩm (Category) nào đang mang lại lợi nhuận cao nhất và sản phẩm nào đang bán lỗ?
 
-2. Chuẩn bị & Xử lý (Prepare & Process)
+## 2. Chuẩn bị & Xử lý (Prepare & Process)
 Công cụ: Python (thư viện Pandas).
 
 Quá trình:
@@ -27,7 +27,7 @@ Tạo các cột tính toán mới (Feature Engineering) như Profit Margin (Bi�
 
 Dữ liệu sạch được xuất ra file Superstore_Cleaned.csv để chuẩn bị cho bước phân tích.
 
-3. Phân tích (Analyze)
+## 3. Phân tích (Analyze)
 Công cụ: SQLite (để lưu trữ) và SQL (để truy vấn).
 
 Các câu truy vấn chính được sử dụng để khám phá dữ liệu, ví dụ:
@@ -38,7 +38,7 @@ Phân tích các sản phẩm con (Sub-Category) đang bán lỗ (HAVING SUM(Pro
 
 Tính tổng doanh thu theo từng phân khúc khách hàng (GROUP BY Segment).
 
-4. Trình bày (Share)
+## 4. Trình bày (Share)
 Công cụ: Power BI.
 
 Xây dựng một dashboard tương tác để trình bày các kết quả phân tích.
@@ -57,7 +57,7 @@ Biểu đồ bản đồ (Filled Map) tô màu lợi nhuận theo từng quốc 
 
 Dashboard có 2 bộ lọc (Slicers) tương tác: Lọc theo Khu vực (Region) và Lọc theo Ngày (Order Date).
 
-5. Công cụ sử dụng
+## 5. Công cụ sử dụng
 Python (Pandas): Để làm sạch và chuẩn bị dữ liệu.
 
 SQL (SQLite): Để lưu trữ và truy vấn phân tích.
