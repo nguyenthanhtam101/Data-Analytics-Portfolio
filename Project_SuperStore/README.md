@@ -1,4 +1,4 @@
-📈 Dự án: Phân tích Doanh số & Lợi nhuận Global Superstore
+# 📈 Dự án: Phân tích Doanh số & Lợi nhuận Global Superstore
 Đây là một dự án phân tích dữ liệu trọn vẹn (end-to-end), thực hiện quy trình từ làm sạch dữ liệu thô, phân tích, và trực quan hóa để tìm ra các xu hướng kinh doanh quan trọng.
 
 1. Mục tiêu (Ask)
