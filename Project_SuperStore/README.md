@@ -57,9 +57,6 @@ Biểu đồ bản đồ (Filled Map) tô màu lợi nhuận theo từng quốc 
 
 Dashboard có 2 bộ lọc (Slicers) tương tác: Lọc theo Khu vực (Region) và Lọc theo Ngày (Order Date).
 
-ẢNH CHỤP DASHBOARD
-(Chèn ảnh dashboard của bạn vào đây!) (Cách chèn ảnh trong Markdown: ![Mô tả ảnh](Tên-file-ảnh.png)) (Ví dụ: ![Dashboard Tổng quan](Dashboard_Overview.png))
-
 5. Công cụ sử dụng
 Python (Pandas): Để làm sạch và chuẩn bị dữ liệu.
 
