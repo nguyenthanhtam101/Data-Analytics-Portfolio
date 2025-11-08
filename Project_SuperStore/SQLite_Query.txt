@@ -1,0 +1,25 @@
+SELECT * FROM SalesData limit 10
+SELECT Market,sum(Profit) as totalProfit,
+	sum(Sales) as totalSale
+FROM SalesData
+group by Market
+order by totalProfit DESC
+limit 5
+
+SELECT Segment ,sum(sales) as totalSales
+FROM SalesData 
+GROUP By Segment
+Order by totalSales DESC
+limit 10
+
+SELECT "Sub-Category" ,sum(Profit) as TotalProfit
+FROM SalesData 
+GROUP by "Sub-Category" HAVING Profit < 0
+Order by TotalProfit ASC 
+
+SELECT State,Profit 
+FROM SalesData
+WHERE Country='Vietnam'
+GROUP by State
+Order by Profit DESC
+limit 5
