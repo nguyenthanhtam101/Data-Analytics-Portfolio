@@ -15,7 +15,8 @@ Vấn đề: Doanh nghiệp phụ thuộc 85% vào khách hàng mới và khách
 Cơ hội: Nhóm khách hàng VIP (Champions) chi tiêu gấp 5 lần trung bình nhưng số lượng đang giảm.
 
 
-## Đề xuất: Chuyển dịch 30% ngân sách quảng cáo sang các chương trình Loyalty để giữ chân nhóm "New Customers".
+Đề xuất: Chuyển dịch 30% ngân sách quảng cáo sang các chương trình Loyalty để giữ chân nhóm "New Customers".
+
 
 
 
