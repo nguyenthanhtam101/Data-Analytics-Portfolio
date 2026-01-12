@@ -1,0 +1,35 @@
+[
+  {
+    $lookup: {
+      from: "customers",
+      localField: "customer_id",
+      foreignField: "customer_id",
+      as: "customer_info"
+    }
+  },
+  { $unwind: "$customer_info" },
+  {
+    $lookup: {
+      from: "payments",
+      localField: "order_id",
+      foreignField: "order_id",
+      as: "payment_info"
+    }
+  },
+  {
+    $project: {
+      unique_id: "$customer_info.customer_unique_id",
+      order_date: "$order_purchase_timestamp",
+      order_total_value: { $sum: "$payment_info.payment_value" }
+    }
+  },
+  {
+    $group: {
+      _id: "$unique_id",
+      last_date: { $max: "$order_date" },
+      frequency: { $sum: 1 },
+      monetary: { $sum: "$order_total_value" }
+    }
+  },
+  { $sort: { monetary: -1 } }
+]
