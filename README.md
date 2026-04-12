@@ -17,19 +17,23 @@ I am a final-year Information Technology student with a passion for uncovering h
 ---
 
 ## 👤 About Me
-As an aspiring Data Analyst, I bridge the gap between technical data processing and business strategy. I don't just "clean data"; I look for the "Why" behind the numbers. Whether it's identifying why customers are leaving or predicting medical risks, my goal is to provide **actionable recommendations** that matter.
+
+As an **Aspiring Data Analyst**, I am deeply passionate about bridging the gap between technical complexity and business clarity. My expertise lies in leveraging **Python** for meticulous data cleaning and writing high-performance **SQL** to query large-scale databases efficiently. I don't just process numbers; I strive to uncover the "story" they tell.
+
+My toolkit includes crafting interactive **Power BI reports** and advanced **Excel models** that do more than just visualize—they serve as strategic assets designed to drive measurable business growth. A defining milestone in my journey was the successful execution of an end-to-end **RFM (Recency, Frequency, Monetary) project**. This project allowed me to demonstrate my ability to translate millions of raw, fragmented data points into clear, strategic recommendations for business stakeholders.
+
+I am fully dedicated to the mission of transforming complex, "messy" data into **actionable business growth strategies**. I believe that in the right hands, data is the most powerful tool a company has to predict the future and stay ahead of the curve.
 
 * 🎓 **Expected Graduation:** 2026
-* 🔭 **Currently working on:** Advanced SQL and Power BI Dashboarding
-* 🌱 **Learning:** Deepening my knowledge in Docker and Cloud Data Platforms
-
+* 🔭 **Key Achievement:** Integrated 90k+ records from disparate sources into a cohesive RFM model.
+* 🌱 **Focus:** Delivering data-backed decision-making solutions.
 ---
 
 ## 🛠️ Technical Skills
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Analysis** | Python (Pandas, NumPy, Scikit-learn), SQL (CTEs, Joins, Window Functions) |
-| **Visualization** | Power BI (DAX), Excel (Advanced Formulas, Pivot Tables), Matplotlib |
+| **Visualization** | Power BI (DAX), Excel (Basic Formulas, Pivot Tables), Matplotlib |
 | **Databases** | MongoDB (Aggregation Framework), PostgreSQL, Google BigQuery |
 | **DevOps/Tools** | Docker, Git, Streamlit |
 
@@ -69,5 +73,5 @@ As an aspiring Data Analyst, I bridge the gap between technical data processing 
 
 ## 📫 Contact
 * **Email:** tam43621@gmail.com
-* **LinkedIn:** [linkedin.com/in/nguyenthanhtam](https://linkedin.com/in/nguyenthanhtam)
+* **LinkedIn:** [linkedin.com/in/nguyenthanhtam](https://www.linkedin.com/in/nguyenthanhtam101)
 * **GitHub:** [github.com/nguyenthanhtam101](https://github.com/nguyenthanhtam101)
