@@ -42,7 +42,7 @@ Through interactive dashboarding, I discovered three major "Profit Leaks":
 ---
 
 ## 🖼️ Dashboard Showcase & Evaluation
-*(Chèn ảnh chụp màn hình Dashboard SuperStore của bạn vào đây)*
+![SuperStore Dashboard](https://github.com/nguyenthanhtam101/Data-Analytics-Portfolio/blob/main/Project_SuperStore/Dashboard_Overview.png)
 
 ### **Expert Review of this Dashboard:**
 * **Visual Hierarchy:** Used **Slicers** for Region and Category, allowing stakeholders to drill down into specific problem areas instantly.
