@@ -67,7 +67,7 @@ I am fully dedicated to the mission of transforming complex, "messy" data into *
 ---
 
 ## 🎓 Education & Certificates
-* **Thuy Loi University** | Major: Information Technology (2022 - 2026)
+* **Thuy Loi University** | Major: Information Technology (Expected Graduation: 2026)
     * GPA: 3.22 / 4.0
     * Received multiple scholarships for academic excellence.
 * **TOEIC:** 605/990
