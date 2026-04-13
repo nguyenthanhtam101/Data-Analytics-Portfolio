@@ -66,6 +66,19 @@ I am fully dedicated to the mission of transforming complex, "messy" data into *
 
 ---
 
+### 3. SuperStore Sales & Profitability Analysis
+**Goal:** Analyzing multi-year retail data to identify growth drivers, optimize regional performance, and recover profit margins.
+
+* **Business Problem:** Despite high overall sales volume, the business struggled to identify "profit leaks" across thousands of products and multiple regions, leading to declining net margins in certain categories.
+* **Solution:** Performed a comprehensive audit of sales performance using **SQL** and **Python**. Built an interactive dashboard to visualize the correlation between discounts, shipping costs, and profitability.
+* **Key Insights:** * Identified that the **Central Region** had the highest sales but the lowest net profit due to inefficient logistics.
+    * Discovered that discounts above **20%** in the Office Supplies category resulted in negative profit margins.
+    * Pinpointed top 15% of products that contribute to 60% of total profit, allowing for better inventory focus.
+* **Technology:** Python (Pandas), SQL (Advanced Joins, Window Functions), Power BI/Excel.
+* **🔗 [View Project Files & Analysis](./Project_SuperStore)**
+
+---
+
 ## 🎓 Education & Certificates
 * **Thuy Loi University** | Major: Information Technology (Expected Graduation: 2026)
     * GPA: 3.22 / 4.0
