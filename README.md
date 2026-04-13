@@ -4,6 +4,8 @@
 I am a final-year IT student passionate about decoding business stories hidden within data. I use **Python** and **SQL** as my primary tools to navigate through millions of raw data points, ensuring data integrity and high-performance querying. 
 
 With a proven track record of executing end-to-end projects—such as my **Olist RFM analysis**—I combine the technical rigor of **MongoDB** and **Docker** with the strategic clarity of **Power BI** and **Excel**. My goal is to transform "messy" data into automated, intuitive dashboards that empower stakeholders to optimize LTV and customer retention.
+
+
 ---
 
 ## 📑 Table of Contents
