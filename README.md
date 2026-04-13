@@ -62,7 +62,7 @@ I am fully dedicated to the mission of transforming complex, "messy" data into *
 * **Description:** Integrated diverse data sources (structured EHR and unstructured brain scans) to predict stroke risk factors using XGBoost.
 * **Skills:** Feature Importance, Model Development, Web Deployment.
 * **Technology:** Python, Pandas, XGBoost, TensorFlow (ResNet50), Streamlit.
-* **[🔗 View Code & Demo](./AI_Stroke_Prediction)**
+* **[🔗 View Code & Details](https://github.com/nguyenthanhtam101/Strokes_prediction_project?tab=readme-ov-file)**
 
 ---
 
