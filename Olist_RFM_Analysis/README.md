@@ -47,7 +47,7 @@ Based on the **Multi-axis Dashboard**, I uncovered critical insights:
 ---
 
 ## 📊 Dashboard Showcase & Evaluation
-![Olist Dashboard](link_anh_dashboard_cua_ban.png)
+![Olist Dashboard](Olist_RFM_Analysis/Dashboard.png)
 
 ### **Expert Review of this Dashboard:**
 * **Visualization:** Used a **Combo Chart (Column + Line)** with a **Secondary Axis** to compare "Revenue" (Millions) and "Customer Count" (Thousands) on the same view.
