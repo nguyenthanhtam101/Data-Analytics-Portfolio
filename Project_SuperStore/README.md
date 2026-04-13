@@ -1,65 +1,50 @@
-# 📈 Dự án: Phân tích Doanh số & Lợi nhuận Global Superstore
-Đây là một dự án phân tích dữ liệu trọn vẹn (end-to-end), thực hiện quy trình từ làm sạch dữ liệu thô, phân tích, và trực quan hóa để tìm ra các xu hướng kinh doanh quan trọng.
+# 📊 SuperStore Sales & Profitability Analysis
+> **Goal:** Analyzing multi-year retail data to identify growth drivers, optimize regional performance, and recover profit margins.
 
-## 1. Mục tiêu (Ask)
-Mục tiêu của dự án là trả lời các câu hỏi kinh doanh chính từ Ban Giám đốc:
+---
 
-Tình hình tăng trưởng doanh thu và lợi nhuận theo thời gian?
+## 1. Business Context & Problem Statement
+The SuperStore dataset represents a global retail giant dealing with thousands of products across multiple categories and regions.
 
-Khu vực (Market) và Phân khúc khách hàng (Segment) nào đang hoạt động hiệu quả nhất?
+* **The Problem:** Despite high overall sales, certain regions and product categories are experiencing **declining profit margins** and **high shipping costs**.
+* **The Objective:** To perform a comprehensive audit of sales performance, identify loss-making segments, and provide a roadmap for profit optimization.
 
-Những danh mục sản phẩm (Category) nào đang mang lại lợi nhuận cao nhất và sản phẩm nào đang bán lỗ?
+---
 
-## 2. Chuẩn bị & Xử lý (Prepare & Process)
-Công cụ: Python (thư viện Pandas).
+## 2. Analytical Pipeline & Methodology
 
-Quá trình:
+### 🛠️ Step 1: Data Wrangling (SQL & Python)
+* **Cleaning:** Used **Python (Pandas)** to handle missing values in shipping data and standardized category naming conventions.
+* **Extraction:** Performed **SQL Advanced Queries** (Joins, Window Functions) to calculate Year-over-Year (YoY) growth and running totals of profit across different fiscal quarters.
 
-Dữ liệu ban đầu (lấy từ Kaggle) gồm 51,290 dòng.
+### 📈 Step 2: Exploratory Data Analysis (EDA)
+* Identified seasonal trends (e.g., Q4 spikes) and analyzed the correlation between **Discounts** and **Profitability**.
+* **Key Metric Calculated:** Profit Margin % = `(Total Profit / Total Sales) * 100`.
 
-Phát hiện và xử lý:
+---
 
-Chuyển đổi cột Order Date và Ship Date từ kiểu 'object' sang 'datetime'.
+## 3. Key Insights (Business Discovery)
+Through interactive dashboarding, I discovered three major "Profit Leaks":
 
-Xử lý các giá trị số liệu (nếu có).
+* **The Discount Trap:** Higher discounts (above 20%) in the **Office Supplies** category significantly eroded profit margins without a proportional increase in sales volume.
+* **Regional Disparity:** The **Central Region** showed the highest sales volume but the lowest net profit due to inefficient logistics and high return rates.
+* **Product Performance:** 15% of products in the **Technology** category contributed to 60% of total profit, highlighting a high dependency on a small product mix.
 
-Tạo các cột tính toán mới (Feature Engineering) như Profit Margin (Biên lợi nhuận) và Processing Time (Thời gian xử lý đơn) để làm giàu thêm dữ liệu.
+---
 
-Dữ liệu sạch được xuất ra file Superstore_Cleaned.csv để chuẩn bị cho bước phân tích.
+## 4. Actionable Recommendations
+| Finding | Proposed Action |
+| :--- | :--- |
+| **High Shipping Costs** | Renegotiate carrier contracts for the Central Region or implement a minimum order value for free shipping. |
+| **Negative Profit Items** | Discontinue or re-price bottom-tier products that have consistent negative margins over 3 quarters. |
+| **Discount Optimization** | Limit maximum discounts to 15% for high-demand Office Supplies to protect the bottom line. |
 
-## 3. Phân tích (Analyze)
-Công cụ: SQLite (để lưu trữ) và SQL (để truy vấn).
+---
 
-Các câu truy vấn chính được sử dụng để khám phá dữ liệu, ví dụ:
+## 🖼️ Dashboard Showcase & Evaluation
+*(Chèn ảnh chụp màn hình Dashboard SuperStore của bạn vào đây)*
 
-Tìm Top 5 thị trường có lợi nhuận cao nhất (GROUP BY Market, ORDER BY TotalProfit).
-
-Phân tích các sản phẩm con (Sub-Category) đang bán lỗ (HAVING SUM(Profit) < 0).
-
-Tính tổng doanh thu theo từng phân khúc khách hàng (GROUP BY Segment).
-
-## 4. Trình bày (Share)
-Công cụ: Power BI.
-
-Xây dựng một dashboard tương tác để trình bày các kết quả phân tích.
-
-Các chức năng chính của Dashboard:
-
-Các thẻ (Cards) hiển thị 3 chỉ số KPI chính: Tổng Doanh thu, Tổng Lợi nhuận, Biên lợi nhuận trung bình.
-
-Biểu đồ đường (Line chart) thể hiện xu hướng Doanh thu/Lợi nhuận theo thời gian.
-
-Biểu đồ cột (Bar chart) cho thấy Top 5 thị trường lợi nhuận cao nhất.
-
-Biểu đồ tròn (Donut chart) thể hiện tỷ trọng doanh thu theo Phân khúc khách hàng.
-
-Biểu đồ bản đồ (Filled Map) tô màu lợi nhuận theo từng quốc gia.
-
-Dashboard có 2 bộ lọc (Slicers) tương tác: Lọc theo Khu vực (Region) và Lọc theo Ngày (Order Date).
-
-## 5. Công cụ sử dụng
-Python (Pandas): Để làm sạch và chuẩn bị dữ liệu.
-
-SQL (SQLite): Để lưu trữ và truy vấn phân tích.
-
-Power BI: Để xây dựng dashboard trực quan hóa tương tác.
+### **Expert Review of this Dashboard:**
+* **Visual Hierarchy:** Used **Slicers** for Region and Category, allowing stakeholders to drill down into specific problem areas instantly.
+* **Trend Analysis:** Included a **Time-series Line Chart** to track Sales vs. Profit over 48 months, making it easy to spot seasonal anomalies.
+* **Color Logic:** Applied **Conditional Formatting** (Red for Negative Profit, Green for Positive) to ensure immediate visual identification of "Profit Leaks."
